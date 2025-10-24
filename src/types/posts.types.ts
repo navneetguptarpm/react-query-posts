@@ -1,6 +1,6 @@
-export type PostType = {
-  userId: number;
-  id: number;
+export interface PostType {
   title: string;
   body: string;
-};
+  userId: number;
+  id: number;
+}
